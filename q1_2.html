@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 1 and 2</title>
+
+    <style>
+        body{
+            margin:0;
+        }
+
+        #rightSide{
+            padding-left: 50vw;
+            width:50vw;
+            position:absolute;
+        }
+
+        #container{
+            height:100vh;
+            width:50vw;
+            
+        }
+
+        #headerKringla{
+            width:50vw;
+            float:left;
+            
+        }
+        #headerIngredients{
+            width:50vw;
+            float:left;
+        }
+        #ingredients{
+            width:50vw;
+            float:left;
+        }
+        #headerDirections{
+            width:50vw;
+            float:left;
+            
+        }
+        #directions{
+            width:50vw;
+            float:left;
+        }
+
+        #two{
+            padding-left:2vw;
+            width:44vw;
+            
+        }
+
+        #four{
+            font-family: monospace;
+        }
+
+
+
+        
+
+
+
+    </style>
+
+</head>
+<body>
+    <div id="container">
+        <div id="rightSide">
+            <p>
+                My physics teacher said that the best way to learn physics is to double-major in computer science. Then she gave us 
+                the following homework problem:
+            </p>
+            <p id="two">
+                Write a Javascript class that models a projectile. Provide a constructor that accepts the projectile's initial velocities on 
+                both the x- and y-axes. Provide also a method for getting the projectile's position at time t.  
+            </p>
+            <p>
+                I will not take a programming course until my 5th grade year, but I watched all of <img src="youtube.png" width=100 height="30">last summer and managed to piece 
+                together the following solution:
+            </p>
+            <p id="four">  
+                class Projectile {                                   <br>
+                &nbsp;&nbsp;constructor(velocityX, velocityY) {      <br> 
+                &nbsp;&nbsp;&nbsp;&nbsp;this.velocityX = velocityX;  <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;this.velocityY = velocityY;  <br>
+                } <br>
+                  <br>
+                &nbsp;&nbsp;getPosition(t) {    <br>  
+                &nbsp;&nbsp;&nbsp;&nbsp;return [this.velocityX * t, -4.9 * t * t + this.velocityY * t]; <br> 
+                &nbsp;&nbsp;} <br> 
+                }  
+            </p>
+            <p>
+                Perhaps by the time I am in college, <img src="youtube.png" width=100 height="30"> will be handing out degrees.
+            </p>
+        </div>
+        <div id="headerKringla">
+            <h1><b>Kringla</b></h1><br>
+        </div>
+
+        <div id="headerIngredients">
+            <h2><b>Ingredients</b></h2><br>
+        </div>
+
+        <div id="ingredients">
+            <ul>
+                <li>1 1/2 cups white sugar</li>
+                <li>1 egg</li>
+                <li>2 1/2 cups sour cream</li>
+                <li>4 cups all-purpose flour</li>
+                <li>2 teaspoons baking soda</li>
+                <li>1/4 teaspoon salt</li>
+            </ul>
+        </div>
+
+        <div id="headerDirections">
+            <h2><b>Directions</b></h2><br>
+        </div>
+
+        <div id="directions">
+            <ol>
+                <li>Preheat oven to 350 degrees F (175 degrees C). Lightly grease or line baking sheets with parchment paper.</li>
+                <li>Combine the sugar, beaten egg and sour cream together. Mix in the flour, baking soda and salt. Blend thoroughly.</li>
+                <li>Divide dough in half and form each half into a long roll. (Note: If your kitchen is warm, keep the half of dough you're not working with in the refrigerator.)</li>
+                <li>Cut off a narrow slice of dough. Roll lightly with hands on lightly floured board into pencil-like strip about 7 inches long. Form into a figure "8", and pinch ends together. Place on cookie sheet. Repeat with remaining dough.</li>
+                <li>Bake at 350 degrees F (175 degrees C) for 12 to 15 minutes.</li>
+            </ol>
+        </div>
+    </div>
+
+
+    
+</body>
+</html>
