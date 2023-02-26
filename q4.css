@@ -1,0 +1,44 @@
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+    align-items: center;
+    justify-content: center;
+}
+#name{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#about{
+    padding:1px;
+    background-color:rgb(169, 193, 238);
+    color:rgb(32, 95, 184);
+}
+#courses{
+    padding:1px;
+    background-color:rgb(169, 193, 238);
+    color:rgb(32, 95, 184);
+}
+#interests{
+    padding:1px;
+    background-color:rgb(169, 193, 238);
+    color:rgb(32, 95, 184);
+}
+#submitinfo{
+    padding:1px;
+    background-color:rgb(169, 193, 238);
+    color:rgb(32, 95, 184);
+}
+#davidpicture{
+    float:right;
+    margin: 0 0 0 25px;
+    margin-top: 7.4vh;
+}
+
+table, th, td{
+    border:1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    padding-right: 0px;
+    padding-left: 2px;
+}
